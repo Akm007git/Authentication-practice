@@ -88,6 +88,6 @@ app.get("/logout", (req, res) => {
     res.redirect("/");
 })
 
-app.listen(3000, () => {
+app.listen(3000, (req, res) => {
     console.log("server is running 3000");
 });
